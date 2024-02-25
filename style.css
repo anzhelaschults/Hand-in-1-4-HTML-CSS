@@ -1,0 +1,202 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+li,
+div {
+    margin: 0;
+    padding: 0;
+}
+ol {
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* font-family: 'Kalam', sans-serif; */
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-weight: 400; Regular
+}
+  
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* navigation links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 20px 0;
+    padding: 20px;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* footer */
+div>div:last-child {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ol {
+
+    margin-bottom: 20px;
+}
+
+li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+/* supportive links section */
+div>p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* TODO list project page */
+h1.todo-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+a.about-link {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol.todo-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+
+ol.todo-list li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+div.todo-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.todo-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        padding: 40px;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    body {
+        padding: 60px;
+    }
+}
